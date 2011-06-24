@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+  android:orientation="horizontal"
+  android:background="#00000000">
+  <!-- android:background="@drawable/layout_bg"> -->
+  <!-- android:layout_marginTop="12dp" -->
+
+  <kankan.wheel.widget.WheelView
+    android:id="@+id/day"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_weight="1" />
+  <kankan.wheel.widget.WheelView
+    android:id="@+id/hour"
+    android:layout_height="wrap_content"
+    android:layout_width="70dp" />
+  <kankan.wheel.widget.WheelView
+    android:id="@+id/mins"
+    android:layout_height="wrap_content"
+    android:layout_width="70dp" />
+</LinearLayout>
